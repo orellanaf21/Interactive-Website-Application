@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Facts</title>
+    <link rel="icon" type="image/x-icon" href="Images/logo_img.jpg">
+    <link rel="stylesheet" href="Styles/style.css">
+    <script src="Scripts/apiDogFacts.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Images/logo_img.jpg" alt="Logo" width="150" height="100">
+            <p>Early Childhood Program</p>
+        </div>
+
+        <div>
+            <nav>
+                <ul class="navigation-bar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                    <li><a href="registration.html">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="search">
+            <input type="search" placeholder="Search">
+            <img src="Images/search.png" alt="SearchImg" width="25" height="25">
+        </div>
+    </header>
+
+    <main>
+        <div class="facts container">
+            <div class="facts-header"><h2>Dog Facts</h2></div>
+            <div class="facts-body">
+                <img src="Images/DogFace.png" alt="dogFace" width="250" height="250">
+                <p>Let's learn more about dog's and it's different breeds</p>
+                <p>Ready to learn about dog's?</p>
+                <button class="facts-button">Start</button>
+            </div>
+        </div>
+
+        <div class="facts-content container hidden">
+            <div class="facts-header"><h2>Dog Facts</h2></div>
+            <div class="facts-body-content">
+                <div class="dog-image"></div>
+            </div>
+            <div class="button-container">
+                <button class="facts-button-next">Next Fact</button>
+            </div>
+        </div>
+
+        <div class="error hidden"></div>
+
+        <div class="skeleton-content container hidden">
+            <div class="facts-header">
+                <div class="dog-info-header"></div>
+            </div>
+            <div class="facts-body">
+                <div class="dog-info-image"></div>
+                <div class="dog-info"></div>
+                <div class="dog-info"></div>
+                <div class="dog-info"></div>
+                <div class="dog-info"></div>
+                <div class="dog-info"></div>
+            </div>
+            <div class="skeleton-button"><button></button></div>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <img src="Images/logo_img.jpg" alt="footerLogo" width="120" height="80">
+        </div>
+
+        <div>
+            <p>©2024 Early Childhood Program. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

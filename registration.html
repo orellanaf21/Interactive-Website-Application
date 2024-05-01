@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Fernando">
+    <title>Registration</title>
+    <link rel="icon" type="image/x-icon" href="Images/logo_img.jpg">
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Images/logo_img.jpg" alt="Logo" width="150" height="100">
+            <p>Early Childhood Program</p>
+        </div>
+
+        <div>
+            <nav>
+                <ul class="navigation-bar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                    <li><a href="registration.html">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="search">
+            <input type="search" placeholder="Search">
+            <img src="Images/search.png" alt="SearchImg" width="25" height="25">
+        </div>
+    </header>
+
+    <main>
+        <div class="registration">
+            <h1>Register Today</h1>
+
+            <form action="#">
+                <div>
+                    <p id="field">Children First Name</p>
+                    <input type="text" name="childFirstName" id="childFirstName" placeholder="Child First Name" required>
+                </div>
+
+                <div>
+                    <p id="field">Children Last Name</p>
+                    <input type="text" name="childLastName" id="childLastName" placeholder="Child Last Name" required>
+                </div>
+
+                <div>
+                    <p id="field">Parent First Name</p>
+                    <input type="text" name="parentFirstName" id="parentFirstName" placeholder="Parent First Name" required>
+                </div>
+
+                <div>
+                    <p id="field">Parent Last Name</p>
+                    <input type="text" name="parentLastName" id="parentLastName" placeholder="Parent Last Name" required>
+                </div>
+
+                <div>
+                    <p id="field">Parent Email</p>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+
+                <div>
+                    <p id="field">Phone Number</p>
+                    <input type="tel" name="phone" id="phone" placeholder="Phone number" required>
+                </div>
+
+                <div>
+                    <p id="field">Which Program?</p>
+                    <input type="radio" id="spanishImmersion" name="program_choice" value="spanish_immersion">
+                    <label for="spanishImmersion">Spanish Immersion</label><br>
+                    <input type="radio" id="bilingualOptions" name="program_choice" value="bilingual_options">
+                    <label for="bilingualOptions">Bilingual Options</label>
+                </div>
+
+                <div>
+                    <p id="field">Additional Information</p>
+                    <textarea name="message" id="message" placeholder="Additional Information"></textarea>
+                </div>
+
+                <div class="btn">
+                    <input type="submit" name="submit" id ="submit" value="Register">
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <img src="Images/logo_img.jpg" alt="footerLogo" width="120" height="80">
+        </div>
+
+        <div>
+            <p>©2024 Early Childhood Program. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
